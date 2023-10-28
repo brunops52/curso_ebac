@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 224, 212);
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(213, 182, 154);
+    color: rgb(23, 45, 69);
+    margin-bottom: 32px;
+    font-style: italic;
+}
+.direçoes a{
+    margin-right: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(23, 45, 69);
+}
+.fachada .container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.fachada img{
+    width: 320px;
+}
+.fachada h2,
+.produtos h2{
+    padding: 8px;
+    border-bottom: solid 2px;
+    margin-bottom: 32px;
+    font-style: italic;
+}
+.sobreLoja{
+    margin: 0 24px;
+}
+
+.pratos img{
+    width: 100%;
+}
+.pratos button{
+    width: 100%;
+    padding: 5px;
+    margin-top: 8px;
+    background-color: rgb(23, 45, 69);
+    color: #fff;
+}
+.pratos h3{
+    margin: 8px 0;
+    color: rgb(23, 45, 69);
+    font-style: italic;
+}
+.pratos p{
+    color: rgb(156, 106, 62);
+}
+.produtos .tabela{
+    display: grid;
+    grid-template-columns: repeat(4, 23.5%);
+    column-gap: 2%;
+}
+@media screen and (max-width: 640px) {
+    .container{
+        max-width: 90%;
+    }
+    .fachada .container{
+        display: block;
+    }
+    .produtos .tabela{
+        display: block;
+    }
+    .fachada h2,
+    .produtos h2{
+        margin: 32px 0;
+    }
+    .pratos button{
+        margin: 16px 0;
+    }
+}
+@media screen and (min-width:641px) and (max-width:1023px) {
+    .container{
+        max-width: 90%;
+    }
+    .fachada .container{
+        display: block;
+    }
+    .fachada img{
+        width:100%;
+    }
+    .fachada h2,
+    .produtos h2{
+        margin: 32px 0;
+    }
+    .produtos .tabela{
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 2%;
+    }
+    .pratos button{
+        margin: 16px 0;
+    }
+
+}
