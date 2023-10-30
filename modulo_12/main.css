@@ -1,0 +1,14 @@
+.formulario{
+    margin: 200px auto;
+    max-width: 460px;
+    background-color:rgb(221, 219, 219) ;
+    padding: 32px;
+    border-radius: 15px;
+}
+input{
+    margin-bottom: 16px;
+}
+h1{
+    text-align: center;
+}
+
