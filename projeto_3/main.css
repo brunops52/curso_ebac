@@ -1,0 +1,93 @@
+header{
+    width: 100%;
+}
+body{
+    background-color: rgb(75, 85, 95);
+}
+.navbar{
+    background-color: rgb(40, 54, 65);
+}
+.nav .nav-link.active{
+    background-color: rgb(212, 139, 44) ;
+    color: rgb(40, 54, 65);
+}
+.nav .nav-link,
+.navbar-brand:hover{
+    color: rgb(212, 139, 44) ;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+.navbar-toggler{
+    background-color:rgb(212, 139, 44) ;
+}
+#imagens,#imagens img {
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+}
+.titulo{
+    color:rgb(212, 139, 44);
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.titulo2{
+    color:rgb(212, 139, 44);
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.texto{
+    color: rgb(248, 222, 169);
+    font-weight: 500;
+}
+.cardapio-tt{
+    color:rgb(212, 139, 44);
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.cor{
+    color:rgb(248, 222, 169);
+}
+.social li{
+    display: inline;
+    text-decoration: none;
+}
+.social li a{
+    text-decoration: none;
+}
+#chefs{
+    background-color: rgb(212, 139, 44);
+}
+#chefs .titulo{
+    color:rgb(40, 54, 65);
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+#chefs .texto{
+    color:rgb(40, 54, 65);
+    font-weight: 500;
+}
+
+#contato{
+    background-color: rgb(40, 54, 65);
+}
+#contato form button{
+    background-color:rgb(212, 139, 44);
+    font-weight: bold;
+}
+.sobrein{
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .carousel-item img{
+        width: 280px;
+    }
+}
